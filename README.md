@@ -3,7 +3,7 @@ JavaScript console logging library
 
 <h2>Usage</h2>
 
-Create an instance, set default color, default background, time if not need
+Create an instance, set default color, default background, time if not need:
 
 <pre>
 var jsl = new jsLog({
@@ -13,7 +13,7 @@ var jsl = new jsLog({
 });
 </pre>
 
-Write to console, accepts hex, rgb colors
+Write to console, accepts hex, rgb colors:
 
 <pre>jsl.log('some text', 'text color', 'background color');</pre>
 
