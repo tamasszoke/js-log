@@ -3,12 +3,12 @@ JavaScript console logging library
 
 <h2>Usage</h2>
 
-Create an instance, set default color and default background
+Create an instance, set default color, default background, time if not need
 
 <pre>var jsl = new jsLog({
 	color: '#00ff00',
 	background: 'rgb(100, 100, 50)',
-	time: true
+	time: false
 });</pre>
 	
 Write to console, accepts hex, rgb colors<br/>

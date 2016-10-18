@@ -11,12 +11,12 @@
 
 	Usage
 
-	// create an instance, set default color and default background
+	// create an instance, set default color, default background, time if not need
 	
 	var jsl = new js_log({
 		color: '#00ff00',
 		background: 'rgb(100, 100, 50)',
-		time: true
+		time: false
 	});
 	
 	// write to console, accepts hex, rgb colors
