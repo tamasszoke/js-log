@@ -14,7 +14,7 @@ Create an instance, set default color and default background
 Write to console, accepts hex, rgb colors<br/>
 <pre>jsl.log('some text', 'foreground color', 'background color');</pre>
 
-<h2>Options:</h2>
+<h2>Options</h2>
 
 <pre>jsl.color('color'); // Set font color (default: black)
 jsl.background('color'); // Set background color (default: none)
