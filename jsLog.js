@@ -4,10 +4,12 @@
 
 	Created by: Tamas Szoke
 	Last modified: 2016.10.18.
+	
+	The MIT License (MIT)
+	Copyright (c) 2016 Tamas Szoke
+	https://opensource.org/licenses/MIT
 
-	License: https://opensource.org/licenses/MIT
-
-	Usage:
+	Usage
 
 	// create an instance, set default color and default background
 	
@@ -17,26 +19,15 @@
 		time: true
 	});
 	
-	// write to console, accepts hex, rgb colors, if not set foreground is black, if not set background is none
-	jsl.log('some text', 'foreground color', 'background color');
+	// write to console, accepts hex, rgb colors
+	jsl.log('some text', 'text color', 'background color');
 
-	// set font color (default: black)
-	jsl.color('color');
-
-	// set background color (default: none)
-	jsl.background('color');
-
-	// logging with time (default)
-	jsl.time_on();
-
-	// logging without time
-	jsl.time_off();
-
-	// enable logging (default)
-	jsl.on();
-
-	// disable logging
-	jsl.off();
+	jsl.color('color'); // set font color (default: black)
+	jsl.background('color'); // set background color (default: none)
+	jsl.time_on(); // logging with time (default)
+	jsl.time_off(); // logging without time
+	jsl.on(); // enable logging (default)
+	jsl.off(); // disable logging
 */
 
 function js_log(defaults) {
