@@ -12,7 +12,7 @@ Create an instance, set default color and default background
 });</pre>
 	
 Write to console, accepts hex, rgb colors<br/>
-<pre>jsl.log('some text', 'foreground color', 'background color');</pre>
+<pre>jsl.log('some text', 'text color', 'background color');</pre>
 
 <h2>Options</h2>
 
