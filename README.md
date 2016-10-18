@@ -5,7 +5,7 @@ JavaScript console logging library
 
 Create an instance, set default color and default background
 
-<pre>var jsl = new js_log({
+<pre>var jsl = new jsLog({
 	color: '#00ff00',
 	background: 'rgb(100, 100, 50)',
 	time: true
