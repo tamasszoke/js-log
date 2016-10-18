@@ -3,6 +3,10 @@ JavaScript console logging library
 
 <h2>Usage</h2>
 
+Download and include jsLog.js file to your project, thats the only file all you need.
+
+<pre><script type="text/javascript" src="jsLog.js"></script></pre>
+
 Create an instance, set default color, default background, time if not need:
 
 <pre>
