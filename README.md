@@ -14,23 +14,17 @@ Create an instance, set default color and default background
 Write to console, accepts hex, rgb colors<br/>
 <pre>jsl.log('some text', 'foreground color', 'background color');</pre>
 
-Set font color (default: black)
-<pre>jsl.color('color');</pre>
+<h2>Options:</h2>
 
-Set background color (default: none)
-<pre>jsl.background('color');</pre>
+<pre>jsl.color('color'); // Set font color (default: black)
+jsl.background('color'); // Set background color (default: none)
 
-Logging with time (default)
-<pre>jsl.time_on();</pre>
+jsl.time_on(); //Logging with time (default)
+jsl.time_off(); // Logging without time
 
-Logging without time
-<pre>jsl.time_off();</pre>
-
-Enable logging (default)
-<pre>jsl.on();</pre>
-
-Disable logging
-<pre>jsl.off();</pre>
+jsl.on(); // Enable logging (default)
+jsl.off(); // Disable logging
+</pre>
 
 <h2>License</h2>
 
