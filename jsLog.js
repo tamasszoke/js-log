@@ -1,9 +1,7 @@
 
 /*
 	jsLog - Console logging library
-
-	Created by: Tamas Szoke
-	Last modified: 2016.10.18.
+	Created by Tamas Szoke
 	
 	The MIT License (MIT)
 	Copyright (c) 2016 Tamas Szoke
