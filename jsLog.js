@@ -2,30 +2,11 @@
 /*
 	jsLog - Console logging library
 	Created by Tamas Szoke
+	https://github.com/tamasszoke/jsLog
 	
 	The MIT License (MIT)
 	Copyright (c) 2016 Tamas Szoke
 	https://opensource.org/licenses/MIT
-
-	Usage
-
-	// create an instance, set default color, default background, time if not need
-	
-	var jsl = new js_log({
-		color: '#00ff00',
-		background: 'rgb(100, 100, 50)',
-		time: false
-	});
-	
-	// write to console, accepts hex, rgb colors
-	jsl.log('some text', 'text color', 'background color');
-
-	jsl.color('color'); // set font color (default: black)
-	jsl.background('color'); // set background color (default: none)
-	jsl.time_on(); // logging with time (default)
-	jsl.time_off(); // logging without time
-	jsl.on(); // enable logging (default)
-	jsl.off(); // disable logging
 */
 
 function js_log(defaults) {
