@@ -2,7 +2,7 @@
 /*
 	jsLog - Console logging library
 	Created by Tamas Szoke
-	https://github.com/tamasszoke/jsLog
+	https://tamasszoke.github.io/jsLog
 	
 	The MIT License (MIT)
 	Copyright (c) 2016 Tamas Szoke
