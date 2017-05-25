@@ -11,21 +11,24 @@ Download and include jsLog.js file to your project, this is the only file you ne
 
 Create an instance, set default color, default background, time if not need:
 
-<pre>
+```javascript
 var jsl = new jsLog({
 	color: '#00ff00',
 	background: 'rgb(100, 100, 50)',
 	time: false
 });
-</pre>
+```
 
 Write to console, accepts hex, rgb colors:
 
-<pre>jsl.log('some text', 'text color', 'background color');</pre>
+```javascript
+jsl.log('some text', 'text color', 'background color');
+```
 
 <h2>Options</h2>
 
-<pre>jsl.color('color'); // Set font color (default: black)
+```javascript
+jsl.color('color'); // Set font color (default: black)
 jsl.background('color'); // Set background color (default: none)
 
 jsl.time_on(); //Logging with time (default)
@@ -33,7 +36,7 @@ jsl.time_off(); // Logging without time
 
 jsl.on(); // Enable logging (default)
 jsl.off(); // Disable logging
-</pre>
+```
 
 <h2>License</h2>
 
